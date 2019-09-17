@@ -99,11 +99,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func doneKeyPressed(_ sender: UITextField) {
-        //print("In doneKeyPressed, is guessedLetterField the first responder before updateUIAfterGuess?", guessedLetterField.isFirstResponder)
-        guessALetter()
-        updateUIAfterGuess()
-        //print("In doneKeyPressed, is guessedLetterField the first responder after updateUIAfterGuess??", guessedLetterField.isFirstResponder)
+            //print("In doneKeyPressed, is guessedLetterField the first responder before updateUIAfterGuess?", guessedLetterField.isFirstResponder)
+            guessALetter()
+            updateUIAfterGuess()
+            //print("In doneKeyPressed, is guessedLetterField the first responder after updateUIAfterGuess??", guessedLetterField.isFirstResponder)
     }
+
     
     @IBAction func guessLetterButtonPressed(_ sender: UIButton) {
         //print("In guessLetterButton, is guessedLetterField the first responder before updateUIAfterGuess??", guessedLetterField.isFirstResponder)
